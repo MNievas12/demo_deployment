@@ -12,7 +12,7 @@ app.config['DEBUG'] = True
 
 @app.route("/", methods=['GET'])
 def hello():
-    return "<h1>Bienvenido a mi API del modelo advertising. Para mas info ver la documentación</h1>"
+    return "<h1>Bienvenidas a mi API del modelo advertising. Para mas info ver la documentación</h1>"
 
 # 1. Endpoint que devuelva la predicción de los nuevos datos enviados mediante argumentos en la llamada
 @app.route('/v1/predict', methods=['GET'])
